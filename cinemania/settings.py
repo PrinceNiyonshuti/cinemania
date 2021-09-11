@@ -80,17 +80,28 @@ WSGI_APPLICATION = 'cinemania.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
+# online
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'd3suh1kok0f27e',
+#         'USER': 'tjfkkllwzbwlrg',
+#         'PASSWORD': '580d062af8ccbb39e8c9f90d81a2aa1499035b68db0852f218f308ca3e9659a4',
+#         'HOST': 'ec2-54-147-126-173.compute-1.amazonaws.com',
+#         'PORT': '5432',
+#     }
+# }
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'd3suh1kok0f27e',
-        'USER': 'tjfkkllwzbwlrg',
-        'PASSWORD': '580d062af8ccbb39e8c9f90d81a2aa1499035b68db0852f218f308ca3e9659a4',
-        'HOST': 'ec2-54-147-126-173.compute-1.amazonaws.com',
+        'NAME': 'cinemania',
+        'USER': 'postgres',
+        'PASSWORD': 'lucifer',
+        'HOST': '127.0.0.1',
         'PORT': '5432',
     }
 }
-
 
 
 # Password validation
