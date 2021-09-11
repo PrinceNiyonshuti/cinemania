@@ -1,1 +1,4 @@
- web: gunicorn cinemania.wsgi:application --log-file -
+release: python manage.py migrate
+web: gunicorn cinemania.wsgi --log-file=-
+
+
